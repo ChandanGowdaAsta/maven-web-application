@@ -146,6 +146,14 @@
 					<wtpContextName>maven-web-application</wtpContextName>
 				</configuration>
 			</plugin>
+			 <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-war-plugin</artifactId>
+            <version>3.3.0</version> <!-- Update to the latest version -->
+            <configuration>
+                <!-- Plugin configuration (if needed) -->
+            </configuration>
+        </plugin>
 			
 </plugins>
 	</build>
